@@ -1,6 +1,6 @@
 # RwLanguage
 RwLanguage written in Python.
-The end phase of the project will be to use RW to generate the compiler and stop depending on Python for this process :).
+The end phase of the project will be to use RW to generate the compiler and stop depending on Python for this process.
 
 ## Usage
 
