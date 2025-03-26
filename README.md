@@ -5,7 +5,7 @@ The end phase of the project will be to use RW to generate the compiler and stop
 ## Usage
 
 ```
-usage: main.py [-h] [-asm ASM_FILE] [-out EXE_FILE] [-int INTERPRET] [-gen GENERATE]
+usage: rw_compiler.py [-h] [-asm ASM_FILE] [-out EXE_FILE] [-int INTERPRET] [-gen GENERATE]
 
 RW compiler 1.0
 
