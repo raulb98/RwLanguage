@@ -205,6 +205,10 @@ def main():
     parser.add_argument("-gen", "--generate", type=str, help="Generate .asm from interpreted code")
 
     args = parser.parse_args()
+    if len(sys.argv) == 1:
+        parser.print_help()
+        sys.exit(1)
+
     if args.generate:
         generate_asm_test(args.generate)
         compile_asm(args.generate)
