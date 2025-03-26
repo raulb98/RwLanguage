@@ -1,0 +1,20 @@
+DWORD x = 2
+DWORD y = 2
+BYTE flag = 0
+
+EQ flag = x == y
+
+IF flag
+CALL print_number 1
+ELSE
+CALL print_number 2
+ENDIF
+
+ADD x = x + 2
+EQ flag = x == y
+
+IF flag
+CALL print_number 4
+ELSE
+CALL print_number 6
+ENDIF

@@ -1,0 +1,8 @@
+DWORD x = 4
+DWORD y = 2
+DWORD rez = 0
+
+ADD rez = x + y
+SUB rez = x - 2
+MUL rez = x * x
+DIV rez = y / 2

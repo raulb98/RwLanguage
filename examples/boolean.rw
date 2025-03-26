@@ -1,0 +1,5 @@
+DWORD x = 2
+DWORD y = 2
+BYTE flag = 0
+
+EQ flag = x == y

@@ -1,0 +1,5 @@
+DWORD x = 0
+DWORD y = 1
+BYTE z = 0
+BYTE flag = 0
+QWORD zz = 1
